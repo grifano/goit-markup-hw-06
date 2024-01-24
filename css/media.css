@@ -1,0 +1,75 @@
+/*** Media ***/
+
+/* Tablet - 768px */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 56px;
+  }
+  .container {
+    max-width: 768px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  /* Section - Hero */
+  .section-hero {
+    padding: 112px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-tablet.jpg);
+  }
+  .heading-style-main {
+    max-width: 496px;
+    margin-bottom: 36px;
+  }
+}
+@media (min-resolution: 192dpi) and (min-width: 768px) {
+  /* Section - Hero */
+  .section-hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-tablet@2x.jpg);
+  }
+}
+
+/* Dektop - 1158px */
+@media (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .section {
+    padding: 120px 0;
+  }
+
+  /* Section - Hero */
+  .section-hero {
+    max-width: 1440px;
+    padding: 188px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
+  }
+  .heading-style-main {
+    margin-bottom: 48px;
+  }
+
+  /* Section - Features */
+}
+@media (min-resolution: 192dpi) and (min-width: 1158px) {
+  /* Section - Hero */
+  .section-hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office@2x.jpg);
+  }
+}
