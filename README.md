@@ -1,8 +1,8 @@
-# GoIT: Homework 05
+# GoIT: Homework 06
 
 ![GoIT logo on orange background](https://goit.global/mx/assets/images/logo-goit.svg)
 
-## Modules 5: Forms
+## Modules 6: Responsvnes
 
 ## Acknowledgments
 
