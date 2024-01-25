@@ -18,12 +18,14 @@
     <title>WebStudio | Where your ideas come to live</title>
   </head>
   <body>
-    <!-- <header class="header">
+    <header class="header">
       <div class="container is-flex">
         <nav class="navbar-nav">
+          <!-- Main Logo -->
           <a href="" class="main-logo"
             >Web<span class="main-logo-span">Studio</span></a
           >
+          <!-- Desktop Menu | Hidden from mobile -->
           <ul class="navbar-menu">
             <li>
               <a class="navbar-link current" href="./index.html">Studio</a>
@@ -32,6 +34,12 @@
             <li><a class="navbar-link" href="">Contacts</a></li>
           </ul>
         </nav>
+        <!-- Burger | Show on mobile-->
+        <button class="burger" type="button">
+          <svg class="burger__icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
         <address class="navbar-contact">
           <ul class="address-flex">
             <li>
@@ -47,7 +55,71 @@
           </ul>
         </address>
       </div>
-    </header> -->
+      <div class="mobile-menu is-open">
+        <button class="mobile-menu__close-btn" type="button">
+          <svg class="mobile-menu__close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <nav class="mobile-menu__nav">
+          <ul class="mobile-menu__list">
+            <li>
+              <a class="mobile-menu__link is-current" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li><a class="mobile-menu__link" href="">Portfolio</a></li>
+            <li><a class="mobile-menu__link" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="mobile-menu__contact">
+          <ul class="mobile-menu__address-list">
+            <li>
+              <a
+                class="mobile-menu__contact-link"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="mobile-menu__contact-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="social_list">
+          <li class="social_list-item">
+            <a href="" class="social_link">
+              <svg class="social_icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social_list-item">
+            <a href="" class="social_link">
+              <svg class="social_icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social_list-item">
+            <a href="" class="social_link">
+              <svg class="social_icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social_list-item">
+            <a href="" class="social_link">
+              <svg class="social_icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
 
     <main>
       <!--* Section - Hero -->
