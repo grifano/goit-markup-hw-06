@@ -192,6 +192,7 @@ address a:focus {
   color: #404bbf;
 }
 .mobile-menu__contact {
+  margin-top: auto;
   margin-bottom: 48px;
 }
 .mobile-menu__address-list li:not(:last-child) {
@@ -203,6 +204,9 @@ address a:focus {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+}
+.mobile-menu__contact-link.is-blue {
+  color: #4d5ae5;
 }
 
 .mobile-menu .social_list {
