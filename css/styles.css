@@ -315,11 +315,13 @@ address a:focus {
   background-color: #f4f4fd;
   text-align: center;
 }
+.container.is-team {
+  max-width: 296px;
+}
 .team-flex {
   display: flex;
   flex-direction: column;
   gap: 72px;
-  max-width: 264px;
   margin: 0 auto;
 }
 .team-item {
